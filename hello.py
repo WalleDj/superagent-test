@@ -3,7 +3,7 @@ def greet(name):
 
 
 def farewell(name):
-    return f"goodbye {name}"
+    return f"goodbye {name}".upper()
 
 if __name__ == "__main__":
     print(greet("agent"))
